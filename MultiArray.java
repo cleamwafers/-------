@@ -1,6 +1,7 @@
 //多次元配列.htmlのクイズ
 class MultiArray{
     public static void main(String[] args){
+        //文字列型のargs=arguments(引数)配列を作る
         int[][] allScore =new int[2][3];
         allScore[0][0] =80;
         allScore[0][1] =100;

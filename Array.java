@@ -1,5 +1,6 @@
 class Array {
     public static void main(String[] args){
+        //文字列型のargs=arguments(引数)配列を作る
         int[] score = new int[3];
         score[0] = 80;
         score[1] = 100;

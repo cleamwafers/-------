@@ -1,5 +1,6 @@
 class DataType{
     public static void main(String[] args){
+        //文字列型のargs=arguments(引数)配列を作る
         int month = 12;
         int day =29;
         float weight = 63.0f;
