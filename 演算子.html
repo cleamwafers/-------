@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>java:演算子</title>
+        <meta name="description" content="java 演算子">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h4>演算子</h4>
+            <li>例:y = 12+20/4;</li>
+                <p>20/4<p class mark>↓</p>20/4の答え+12<p class mark>↓</p>yに代入</p>
+            <li>例:y =(12+20)/4;</li>
+                <p>12+20<p class mark>↓</p>12+20の答え/4<p class mark>↓</p>yに代入</p>
+            <table border="1">
+                <tr>
+                    <th>種類</th>
+                    <th>例</th>
+                </tr>
+                <tr>
+                    <td>++ --</td>
+                    <td>+1 -1</td>
+                </tr>
+                <tr>
+                    <td>* / % + -</td>
+                    <td>x ÷ 余り + -</td>
+                </tr>
+                <tr>
+                    <td><> <= >=</td>
+                    <td>大小比較</td>
+                </tr>
+                <tr>
+                    <td>== !=</td>
+                    <td>等しいか</td>
+                </tr>
+                <tr>
+                    <td>&& ||</td>
+                    <td>かつ または</td>
+                </tr>
+                <tr>
+                    <td>= += -=</td>
+                    <td>代入</td>
+                </tr>
+                <tr>
+                    <td>*= /= %=</td>
+                    <td>複合代入</td>
+                </tr>
+            </table>
+        <p>四則演算をするための演算子を<font color="red">算術演算子</font>という</p>
+        <ol>
+            <li>算術演算子</li>
+                <p>7/2 →3 7%2 →1</p>
+                <p>int型をint型で割り算した結果は小数点以降が切り捨てられる。</p>
+            <li>代入・複合代入演算子</li>
+                <p>a +=b →aにbを加えて<font color="red">a</font>に代入 a=a+bと同じ</p>
+            <li>インクリメント(++)・デクリメント演算子(--)</li>
+                <p>a++ → aに<font color="red">1</font>を加える a = a+1, a +=1と同じ</p>
+            <li>関係演算子(二つの値の大小関係を調べる)</li>
+                <p>a >=0 →a が0以上ならtrue</p>
+                <p>結果は必ず<fomt color="red">true</fomt>か<fomt color="red">false</fomt>のboolean型</p>
+            <li>論理演算子(boolean型の演算をする)</li>
+                <p>(a>=0)&&(b>=0) →aが0以上かつbが0以上ならtrue</p>
+        </ol>
+    </body>
+</html>
