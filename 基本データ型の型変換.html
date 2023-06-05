@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>java:基本データ型の型変換(児童の場合・キャストが必要な場合)</title>
+        <meta name="description" content="java 基本データ型の型変換">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h4>数値同士の演算や代入をするときに、データ型の変換が<font color="red">自動</font>で行われる</h4>
+            <p>表現できる値の幅が<font color="red">小→大</font></p>
+        <h4>数値同士の演算や代入をするときに、データ型の変換が<font color="red">キャスト</font>で明示する</h4>
+            <p>表現できる値の幅が<font color="red">大→小</font></p>
+        <table border="2">
+            <tr>
+                <th>大きさ</th>
+                <th>種類</th>
+            </tr>
+            <tr>
+                <td>小</td>
+                <td>byte</td>
+            </tr>
+            <tr>
+                <td>↑</td>
+                <td>short(char)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">｜</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>long</td>
+            </tr>
+            <tr>
+                <td>↓</td>
+                <td>float</td>
+            </tr>
+            <tr>
+                <td>大</td>
+                <td>double</td>
+            </tr>
+        </table>
+        <p>int i; i[32]</p>
+        <p>double d; d[64]</p>
+        <p>d = i;</p>
+        <p>i = (int) d;←小さな箱に大きな箱はいらない。</p>
+        <!--キャストは()内に返還後のデータ型の名前を書く-->
+        <!--コンパイラは小さい入れ物に入れるとデータがあふれちゃいませんか？大丈夫ですか？とエラーを出す。
+        キャストは型変換しても問題ないことをコンパイラに知らせる記述。-->
+        <p>boolean型は型変換できない。</p>
+        <p>どういうときに型変換するのか→比較的多いのが小数の計算結果を正数に変えたいとき</p>
+    </body>
+</html>
