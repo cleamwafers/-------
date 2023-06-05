@@ -37,5 +37,28 @@
             <p>}</p>
         <div class="circle">ポイント</div>
             <li>条件式は上から順に判定</li>
+            
+        <h4>switch文</h4>
+        <p>switch(式){</p>
+            <p>case 値1:</p>
+            <p>処理１</p>
+            <p>break;</p>
+            <p>case 値２:</p>
+            <p>処理2</p>
+            <p>break;</p>
+            <p>default:</p>
+            <p>処理3</p>
+            <p>}</p>
+        <div class="circle">注意点</div>
+            <li>式は<font color="red">byte</font>、<font color="red">short</font>、<font color="red">int</font>、<font color="red">char</font>のみ</li>
+                <p>整数の値が文字</p>
+            <li>式の値によって処理の開始位置が決まる</li>
+            <li>breakは{}を抜ける</li>
+
+        <div class="circle1">switch文とif文どう使い分けるのか？</div>
+            <p>switch文で書けることはif文でも書ける</p>
+            <p>if文で書けることがswitch文で書けないパターンがある</p>
+            <p>→if文の方が複雑な分岐処理が書けるので<font color="red">普通はif文を使う</font></p>
+            <p>但し、<u>変数の値によって処理を一度に多分岐したいときは<font color="red">switch文</font></u>を使うことでプログラムが分かりやすくなる。</p>
     </body>
 </html>

@@ -18,3 +18,13 @@
   text-align: center;
   line-height: 80px;
 }
+.circle1 {
+  background: #b7ec46;
+  border-radius: 50%;
+  width: 600px;
+  height: 70px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+}
