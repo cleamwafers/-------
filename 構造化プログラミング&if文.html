@@ -14,7 +14,7 @@
                     <p>上から順番に処理を行う。</p>
                 <li><font color="red">分岐</font>(Javaではif文とswitch文)</li>
                     <p>ある条件が満たされるならこの処理をし、満たされないなら別の処理をする。=処理を分ける。</p>
-                <li><font color="">繰り返し</font>(Javaではwhole文とfor文)</li>
+                <li><font color="">繰り返し</font>(Javaではwhile文とfor文)</li>
                     <p>ある条件が満たされている間は同じ処理を繰り返す。</p>
             </ol>
         <h4>if文の書き方</h4>
@@ -60,5 +60,32 @@
             <p>if文で書けることがswitch文で書けないパターンがある</p>
             <p>→if文の方が複雑な分岐処理が書けるので<font color="red">普通はif文を使う</font></p>
             <p>但し、<u>変数の値によって処理を一度に多分岐したいときは<font color="red">switch文</font></u>を使うことでプログラムが分かりやすくなる。</p>
+        
+        <h4>while文</h4>
+            <p>while(条件式){</p>
+            <p>処理</p>
+            <p>}</p>
+
+            <p>例 int i =0 ;</p>
+            <p>while( i< 3){</p>
+            <p>System.out.println("i =" + i);</p>
+            <p>i++;</p>
+            <p>}</p>
+        
+        <h4>for文</h4>
+            <p>for(式1;条件式;式2){</p>
+                <!--式１でカウンタ変数の準備
+                式2でカウンタ変数のインクリメント-->
+            <p>処理</p>
+            <p>}</p>
+            
+            <p>例 for(int i = 0 ; i< 3 ; i ++){</p>
+            <p>System.out.println("i=" +1);</p>
+            <p>}</p>
+            
+            <ol>
+                <li>繰り返しの回数が決まっている</li>
+                <li>配列の各要素に何かしたいとき</li>
+            </ol>
     </body>
 </html>
